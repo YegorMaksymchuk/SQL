@@ -32,7 +32,7 @@ INSERT INTO `GoIT`.`Students` (`ID`, `First_Name`, `Last_Name`, `Address`) VALUE
 --TO Select data from table.
 SELECT * FROM GoIT.Students;
 SELECT * FROM GoIT.Students WHERE ID=3;
-SELECT * FROM GoIT.Students WHERE ID=1+2;
+SELECT * FROM GoIT.Students WHERE ID=1+1;
 SELECT * FROM GoIT.Students WHERE `Address`='Lviv';
 SELECT Students.First_Name as STUDENT_NAME FROM GoIT.Students WHERE ID=3;
 SELECT count(*) as AMOUNT_OF_SUDENTS FROM GoIT.Students;
@@ -40,7 +40,7 @@ SELECT count(*) as AMOUNT_OF_SUDENTS FROM GoIT.Students;
 --Rewrite any date in table.
 UPDATE `GoIT`.`Students` SET `First_Name`='Nazar', `Address`='Lviv' WHERE `ID`='1';
 
-
+DELETE FROM `GoIT`.`Students` WHERE `ID`=3;
 /*
 DCL Data Control Language
 

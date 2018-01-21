@@ -92,4 +92,6 @@ cwallet.sso.lck
 .idea
 01.iml
 target/
+.idea/
+*.iml
 .idea

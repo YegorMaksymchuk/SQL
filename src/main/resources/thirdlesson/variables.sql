@@ -1,0 +1,5 @@
+SET @a = 'Lenova';
+SELECT * FROM SQL.PRODUCT WHERE MACKER = @a;
+
+
+

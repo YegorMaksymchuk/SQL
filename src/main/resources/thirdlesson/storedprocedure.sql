@@ -1,13 +1,18 @@
-USE `GoIT`;
-DROP procedure IF EXISTS `name_my_new_procedure`;
+USE `SQL`;
+DROP procedure IF EXISTS `myprocedure`;
 
 DELIMITER $$
-USE `GoIT`$$
-CREATE PROCEDURE `name_my_new_procedure` ()
+USE `SQL`$$
+CREATE PROCEDURE `myprocedure` (a INT , b INT)
 BEGIN
-DELETE FROM `GoIT`.`Students` WHERE `ID`=2;
+IF a>b THEN DELETE FROM `GoIT``.`Students` WHERE `ID`=1;
+ELSEIF a==b DELETE FROM `GoIT`.`Students` WHERE `ID`=2;
+ELSE DELETE FROM `GoIT`.`Students` WHERE `ID`=3;
+ END IF;
 END$$
 
 DELIMITER ;
 
-CALL GoIT.myprocedure();
+
+
+CALL SQL.myprocedure(1,0);

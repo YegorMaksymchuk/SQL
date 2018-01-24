@@ -1,3 +1,5 @@
+Use `SQL`;
+BEGIN;
 INSERT INTO `SQL`.`PRODUCT` (`MAKER`, `MODEL`, `TYPE`) VALUES ('Intel', '1231', 'Lp');
 INSERT INTO `SQL`.`PRODUCT` (`MAKER`, `MODEL`, `TYPE`) VALUES ('Lenova', '3214', 'Lp');
 INSERT INTO `SQL`.`PRODUCT` (`MAKER`, `MODEL`, `TYPE`) VALUES ('Apple', '12321', 'Lp');
@@ -14,7 +16,7 @@ INSERT INTO `SQL`.`PRODUCT` (`MAKER`, `MODEL`, `TYPE`) VALUES ('Xerox', '5847', 
 INSERT INTO `SQL`.`PRODUCT` (`MAKER`, `MODEL`, `TYPE`) VALUES ('Xerox', '5848', 'Pr');
 INSERT INTO `SQL`.`PRODUCT` (`MAKER`, `MODEL`, `TYPE`) VALUES ('Dell', '58664', 'PC');
 INSERT INTO `SQL`.`PRODUCT` (`MAKER`, `MODEL`, `TYPE`) VALUES ('Dell', '58665', 'PC');
-
+COMMIT;
 
 INSERT INTO `SQL`.`LAPTOP` (`CODE`, `MODEL`, `TYPE`, `RAM`, `SPEED`, `PRICE`, `IMG`) VALUES ('1', '1231', 'notebook', '8', '2.2', '400', '?');
 INSERT INTO `SQL`.`LAPTOP` (`CODE`, `MODEL`, `TYPE`, `RAM`, `SPEED`, `PRICE`, `IMG`) VALUES ('2', '3214', 'notebook', '32', '3.2', '900', '?');
@@ -30,7 +32,7 @@ INSERT INTO `SQL`.`PRINTER` (`CODE`, `MODEL`, `TYPE`, `COLOR`, `PRICE`) VALUES (
 INSERT INTO `SQL`.`PRINTER` (`CODE`, `MODEL`, `TYPE`, `COLOR`, `PRICE`) VALUES ('4', '5848', 'Laser', '1', '1300');
 
 
-INSERT INTO `SQL`.`PC` (`CODE`, `MODEL`, `RAM`, `SPEED`, `PRICE`, `IMG`) VALUES ('1', '4532', '32', '2*2.2', '600', '?');
-INSERT INTO `SQL`.`PC` (`CODE`, `MODEL`, `RAM`, `SPEED`, `PRICE`, `IMG`) VALUES ('2', '34562', '128', '8*3.0', '2000', '?');
-INSERT INTO `SQL`.`PC` (`CODE`, `MODEL`, `RAM`, `SPEED`, `PRICE`, `IMG`) VALUES ('3', '233412', '64', '4*2.8', '1600', '?');
+INSERT INTO `SQL`.`PC` (`CODE`, `MODEL`, `TYPE`, `RAM`, `SPEED`, `PRICE`, `IMG`) VALUES ('1', '4532',  'PC', '32', '2*2.2', '600', '?');
+INSERT INTO `SQL`.`PC` (`CODE`, `MODEL`, `TYPE`, `RAM`, `SPEED`, `PRICE`, `IMG`) VALUES ('2', '34562', 'PC','128', '8*3.0', '2000', '?');
+INSERT INTO `SQL`.`PC` (`CODE`, `MODEL`, `TYPE`, `RAM`, `SPEED`, `PRICE`, `IMG`) VALUES ('3', '233412','PC', '64', '4*2.8', '1600', '?');
 

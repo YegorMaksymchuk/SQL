@@ -1,0 +1,28 @@
+INSERT INTO `SQL`.`PRODUCT` (`MAKER`, `MODEL`, `TYPE`) VALUES ('Intel', '1231', 'Lp');
+INSERT INTO `SQL`.`PRODUCT` (`MAKER`, `MODEL`, `TYPE`) VALUES ('Lenova', '3214', 'Lp');
+INSERT INTO `SQL`.`PRODUCT` (`MAKER`, `MODEL`, `TYPE`) VALUES ('Apple', '12321', 'Lp');
+INSERT INTO `SQL`.`PRODUCT` (`MAKER`, `MODEL`, `TYPE`) VALUES ('Apple', '12322', 'Lp');
+INSERT INTO `SQL`.`PRODUCT` (`MAKER`, `MODEL`, `TYPE`) VALUES ('Lenova', '4532', 'PC');
+INSERT INTO `SQL`.`PRODUCT` (`MAKER`, `MODEL`, `TYPE`) VALUES ('Apple', '34562', 'PC');
+INSERT INTO `SQL`.`PRODUCT` (`MAKER`, `MODEL`, `TYPE`) VALUES ('Hp', '123441', 'Lp');
+INSERT INTO `SQL`.`PRODUCT` (`MAKER`, `MODEL`, `TYPE`) VALUES ('Hp', '123442', 'Lp');
+INSERT INTO `SQL`.`PRODUCT` (`MAKER`, `MODEL`, `TYPE`) VALUES ('Hp', '345213', 'Pr');
+INSERT INTO `SQL`.`PRODUCT` (`MAKER`, `MODEL`, `TYPE`) VALUES ('Dell', '233412', 'PC');
+INSERT INTO `SQL`.`PRODUCT` (`MAKER`, `MODEL`, `TYPE`) VALUES ('Dell', '233421', 'Lp');
+INSERT INTO `SQL`.`PRODUCT` (`MAKER`, `MODEL`, `TYPE`) VALUES ('Dell', '233433', 'Pr');
+
+INSERT INTO `SQL`.`LAPTOP` (`CODE`, `MODEL`, `TYPE`, `RAM`, `SPEED`, `PRICE`, `IMG`) VALUES ('1', '1231', 'notebook', '8', '2.2', '400', '?');
+INSERT INTO `SQL`.`LAPTOP` (`CODE`, `MODEL`, `TYPE`, `RAM`, `SPEED`, `PRICE`, `IMG`) VALUES ('2', '3214', 'notebook', '32', '3.2', '900', '?');
+INSERT INTO `SQL`.`LAPTOP` (`CODE`, `MODEL`, `TYPE`, `RAM`, `SPEED`, `PRICE`, `IMG`) VALUES ('3', '12321', 'ultrabook', '16', '2.8', '1400', '?');
+INSERT INTO `SQL`.`LAPTOP` (`CODE`, `MODEL`, `TYPE`, `RAM`, `SPEED`, `PRICE`, `IMG`) VALUES ('4', '12322', 'ultrabook', '16', '2.5', '1200', '?');
+INSERT INTO `SQL`.`LAPTOP` (`CODE`, `MODEL`, `TYPE`, `RAM`, `SPEED`, `PRICE`, `IMG`) VALUES ('5', '123441', 'notebook', '8', '2.0', '450', '?');
+INSERT INTO `SQL`.`LAPTOP` (`CODE`, `MODEL`, `TYPE`, `RAM`, `SPEED`, `PRICE`, `IMG`) VALUES ('6', '123442', 'notebook', '8', '2.2', '600', '?');
+INSERT INTO `SQL`.`LAPTOP` (`CODE`, `MODEL`, `TYPE`, `RAM`, `SPEED`, `PRICE`, `IMG`) VALUES ('7', '233421', 'ultrabook', '16', '2.8', '1380', '?');
+
+INSERT INTO `SQL`.`PRINTER` (`CODE`, `MODEL`, `TYPE`, `COLOR`, `PRICE`) VALUES ('1', '233433', 'Laser', '1', '800');
+INSERT INTO `SQL`.`PRINTER` (`CODE`, `MODEL`, `TYPE`, `COLOR`, `PRICE`) VALUES ('2', '345213', 'Matrix', '0', '200');
+
+INSERT INTO `SQL`.`PC` (`CODE`, `MODEL`, `RAM`, `SPEED`, `PRICE`, `IMG`) VALUES ('1', '4532', '32', '2*2.2', '600', '?');
+INSERT INTO `SQL`.`PC` (`CODE`, `MODEL`, `RAM`, `SPEED`, `PRICE`, `IMG`) VALUES ('2', '34562', '128', '8*3.0', '2000', '?');
+INSERT INTO `SQL`.`PC` (`CODE`, `MODEL`, `RAM`, `SPEED`, `PRICE`, `IMG`) VALUES ('3', '233412', '64', '4*2.8', '1600', '?');
+
